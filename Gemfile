@@ -5,6 +5,7 @@ gem 'bootstrap-sass'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+	gem 'capybara', '1.1.2'
 end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -13,7 +14,4 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-group :test do
-	gem 'capybara'
-end
+gem 'pry'
