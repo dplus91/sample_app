@@ -6,7 +6,7 @@ gem 'bcrypt-ruby', '3.0.1'
 
 group :development, :test do
 	gem 'sqlite3'
-	gem 'rspec-rails'
+	gem 'rspec-rails', '2.11.0'
 	gem 'capybara', '1.1.2'
 end
 group :assets do
@@ -20,3 +20,7 @@ group :development do
 end
 gem 'jquery-rails'
 gem 'pry'
+
+group :test do
+	gem 'factory_girl_rails', '4.1.0'
+end
